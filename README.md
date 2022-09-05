@@ -1,14 +1,14 @@
 # rx02-emulator-mega-shield
 
-Arduino Mega2560 shield with buttons and LCD base on [AK6DN's DEC RX02 emulator](https://github.com/AK6DN/rx02_emulator) board design and code.  There is a fork of his project at  https://github.com/djtersteegc/rx02_emulator that adds support for the new board design.
+Arduino Mega2560 shield with buttons and LCD based on [AK6DN's DEC RX02 emulator](https://github.com/AK6DN/rx02_emulator) board design and code.  There is a fork of his project at  https://github.com/djtersteegc/rx02_emulator that adds support for the new board design.
 
 ![rx02-1](docs/RX02-1.jpg)
 
-You can also run it via the original serial terminal command.  If you don't want to build it with the LCD or buttons, you can disable supprort in the code by setting 
+You can also still run it via the original serial terminal command scheme.  If you don't want to build it with the LCD or buttons, you can disable supprort in the code by setting 
 
 `#define USE_LCD_MENU 0`
 
-in my_project.h
+in `my_project.h`
 
 ![rx02-2](docs/RX02-2.jpg)
 
