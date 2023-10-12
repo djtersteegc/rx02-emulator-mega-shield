@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2022-09-05"
-Rev "Rev 1.0"
+Date "2023-03-13"
+Rev "Rev 1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1889,12 +1889,8 @@ Text Label 7750 2000 0    60   ~ 0
 30
 Text Label 7750 2350 0    60   ~ 0
 28
-Text Label 7750 1650 0    60   ~ 0
-26
 Text Label 7750 2700 0    60   ~ 0
 24
-Text Label 7750 1300 0    60   ~ 0
-22
 Text Label 1150 2000 2    60   ~ 0
 10(**)
 Text Label 1150 1100 2    60   ~ 0
@@ -1924,4 +1920,8 @@ Text Notes 7400 6500 0    50   ~ 0
 Resistor\nR2\nR1\nR4\nR3\nR6\nR5\nR8\nR7\nR10\nR9\nR12\nR11\nR14\nR13\nR16\nR15\nR18\nR17\nR20\nR19\nR23\nR22\n
 Text Notes 7750 6500 0    50   ~ 0
 Value\n\n390\n120\n\n\n\n\n\n180\n390\n180\n390\n\n\n\n\n\n390\n\n\n180\n390\n
+Text Label 7750 1300 0    60   ~ 0
+2(**)
+Text Label 7750 1650 0    60   ~ 0
+3(**)
 $EndSCHEMATC

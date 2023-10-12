@@ -40,4 +40,13 @@ You can download the Gerbers and use your favorite fab (JLCPCB, PCBWay, etc.) to
 
 ### Version 1.0
 
-Emulator portion is working, still tweaking the LCD and menu code.
+After designing and building the Mini SMD version of this, I discovered the reason you always had to do a ReINIT of the emulator to get it recognized was I failed to pick in interrupt enabled pins on the Mega2560 for the RX_INIT and RX_RUN lines.  This has been corrected in the v1.1 board and you can fix this yourself in v1.0 by adding two jumper  wires from D22 to D2, and D26 to D3.  Once complete, reflash with the updated version of the code at https://github.com/djtersteegc/rx02_emulator 
+
+![rx02-2](docs/v1.0-bodge-wires.jpg)
+
+### Version 1.1
+
+Move the RX_INIT and RX_RUN lines to interrupt enabled pins on the Mega2560.
+
+
+
