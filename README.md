@@ -12,9 +12,25 @@ in `my_project.h`
 
 ![rx02-2](docs/RX02-2.jpg)
 
-Resistor numbers is also different than AK6DN's original board so please refer to this mapping table.
+Resistor numbers is also different than AK6DN's original board so please refer to this mapping table below or the CSV file.
 
 [Termination Resistor Table.csv](https://github.com/djtersteegc/rx02-emulator-mega-shield/blob/main/Termination%20Resistor%20Table.csv)
+
+Most of the resistor footprints should NOT be populated.
+
+| Signal         | Resistor | Value   | Resistor | Value   |
+| -------------- | -------- | ------- | -------- | ------- |
+| RX_DMA_MODE_H  | R2       | -       | R1       | **390** |
+| RX_AC_L        | R4       | **120** | R3       | -       |
+| RX_OUT_L       | R6       | -       | R5       | -       |
+| RX_SHIFT_L     | R8       | -       | R7       | -       |
+| RX_12BIT_L     | R10      | **180** | R9       | **390** |
+| RX_DATA_L      | R12      | **180** | R11      | **390** |
+| RX_DONE_L      | R14      | -       | R13      | -       |
+| RX_XFER_RQST_L | R16      | -       | R15      | -       |
+| RX_INIT_L      | R18      | -       | R17      | **390** |
+| RX_ERROR_L     | R20      | -       | R19      | -       |
+| RX_RUN_L       | R23      | **180** | R22      | **390** |
 
 STL's and the [DesignSpark Mechanical](https://www.rs-online.com/designspark/mechanical-software) source file for an snap fit enclosure are in the **enclosure** directory. There is also a provision to secure it with one M3x6mm (or longer) screw if you want.  Since the power and USB port spacing on the Chinese clone Arduino Mega2560's with the CH340 serial chip is different than the original design there are two STL's for the case body, pick the one that matches your board.
 
