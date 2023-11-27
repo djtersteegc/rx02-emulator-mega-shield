@@ -4,11 +4,11 @@ Arduino Mega2560 shield with buttons and LCD based on [AK6DN's DEC RX02 emulator
 
 ![rx02-1](docs/RX02-1.jpg)
 
-You can also still run it via the original serial terminal command scheme.  If you don't want to build it with the LCD or buttons, you can disable supprort in the code by setting 
+You can also still run it via the original serial terminal command scheme.  If you don't want to build it with the LCD or buttons, you can disable supprort in the code by leaving
 
-`#define USE_LCD_MENU 0`
+`#define USE_LCD_MENU`
 
-in `my_project.h`
+commented out (undefined) in `my_project.h`
 
 ![rx02-2](docs/RX02-2.jpg)
 
